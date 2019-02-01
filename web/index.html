@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap - Data Table</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/admin/css/vendor/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="assets/admin/css/vendor/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <link href="assets/admin/css/jquery.bdt.css" type="text/css" rel="stylesheet">
+    <link href="assets/admin/css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+            <div class="box clearfix">
+            <h3>Bootstrap Data Table</h3>
+
+            <table class="table table-hover" id="bootstrap-table">
+                <thead>
+                <tr>
+                    <th>#ID</th>
+                    <th>Pseudo</th>
+                    <th>Prénom</th>
+                    <th>Nom</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>05</td>
+                    <td>VMar</td>
+                    <td>Vincent</td>
+                    <td>Martinez</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>aldup</td>
+                    <td>Alain</td>
+                    <td>Dupond</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>PaDu</td>
+                    <td>Paola</td>
+                    <td>Durand</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>jeanmo</td>
+                    <td>Jeanne</td>
+                    <td>Modette</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>Joon</td>
+                    <td>Josette</td>
+                    <td>Franchon</td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>anedor</td>
+                    <td>Anne</td>
+                    <td>Dor</td>
+                </tr>
+                <tr>
+                    <td>35</td>
+                    <td>Kriss</td>
+                    <td>Christine</td>
+                    <td>Delgado</td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                    <td>jackbo</td>
+                    <td>Jacques</td>
+                    <td>Boelle</td>
+                </tr>
+                <tr>
+                    <td>45</td>
+                    <td>Patoche</td>
+                    <td>Patrick</td>
+                    <td>Soustre</td>
+                </tr>
+                <tr>
+                    <td>50</td>
+                    <td>valtres</td>
+                    <td>Valérie</td>
+                    <td>Tresco</td>
+                </tr>
+                <tr>
+                    <td>55</td>
+                    <td>Syzt</td>
+                    <td>Sylvie</td>
+                    <td>Krozt</td>
+                </tr>
+                <tr>
+                    <td>60</td>
+                    <td>lume</td>
+                    <td>Luc</td>
+                    <td>Merlan</td>
+                </tr>
+                <tr>
+                    <td>65</td>
+                    <td>Vinjo</td>
+                    <td>Jean</td>
+                    <td>Vincos</td>
+                </tr>
+                <tr>
+                    <td>70</td>
+                    <td>jpj</td>
+                    <td>Jean-Paul</td>
+                    <td>Jarson</td>
+                </tr>
+                <tr>
+                    <td>75</td>
+                    <td>Isamort</td>
+                    <td>Isabelle</td>
+                    <td>Morteau</td>
+                </tr>
+                <tr>
+                    <td>80</td>
+                    <td>cfloc</td>
+                    <td>Christian</td>
+                    <td>Fleuroc</td>
+                </tr>
+                <tr>
+                    <td>85</td>
+                    <td>Mamath</td>
+                    <td>Mathis</td>
+                    <td>Martand</td>
+                </tr>
+                <tr>
+                    <td>90</td>
+                    <td>PolNor</td>
+                    <td>Paul</td>
+                    <td>Normand</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </div>
+
+<script src="http://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="assets/admin/js/vendor/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/admin/js/vendor/jquery.sortelements.js" type="text/javascript"></script>
+<script src="assets/admin/js/jquery.bdt.min.js" type="text/javascript"></script>
+<script>
+	$(document).ready( function () {
+		$('#bootstrap-table').bdt({
+			showSearchForm: 1,
+			showEntriesPerPageField: 1
+		});
+	});
+</script>
+</body>
+</html>
