@@ -1,0 +1,13 @@
+{% extends "@App/layout.html.twig" %}
+
+{% block titre %} {{ parent() }} - Bundle {% endblock %}
+
+{% block body %}
+    <h2>Ajouter une annonce</h2>
+
+    {% include "@App/pages/form.html.twig" %}
+
+    <p>
+        Attention : cette annonce sera ajoutée directement sur la page d'accueil après validation du formulaire.
+    </p>
+{% endblock %}
